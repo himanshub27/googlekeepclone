@@ -1,0 +1,57 @@
+.form{
+  margin: 32px auto 50px auto;
+  width: 30%;
+  background-color: rgb(37, 37, 37);
+  border: 2px solid grey;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 7px;
+  padding: 7px;
+}
+
+.form input{
+  width: 100%;
+  outline: none;
+  border: none;
+  resize: none;
+  font-size: 1rem;
+  color: white;
+  font-weight: bold;
+  background-color: rgb(37, 37, 37);
+}
+
+.form textarea{
+  width: 100%;
+  outline: none;
+  border: none;
+  resize: none;
+  font-size: 0.9rem;
+  font-family: sans-serif;
+  background-color: rgb(37, 37, 37);
+  color: white;
+}
+
+.addBtn{
+  background-color: rgb(37, 37, 37);
+  border: none;
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+  .form{
+    width: 60%;
+  }
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+  .form{
+      width: 70%;
+    }
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px){
+  .form{
+    width: 40%;
+  }
+}

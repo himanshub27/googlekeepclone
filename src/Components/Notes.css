@@ -1,0 +1,53 @@
+.notes{
+    color: white;
+    border: 2px solid grey;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 7px;
+  width: 250px;
+  padding-left: 10px;
+  margin: 16px;
+  float: left;
+}
+
+.notes h3{
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    margin-bottom: 6px;
+    font-size: 1rem;
+    font-family: sans-serif;
+}
+
+.notes p{
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-size: 0.9rem;
+    font-family: sans-serif;
+}
+
+.delBtn{
+    float: right;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+    .notes{
+      width: 80%;
+    }
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+    .notes{
+        width: 70%;
+      }
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px){
+   
+}
+
+
